@@ -1,0 +1,22 @@
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W0903 05:47:50.040273 140229693343488 deprecation_wrapper.py:119] From /mnt/lucydrive/KeyPhraseExtraction/SNTPSRevAnalyzer/SNTPS_REV_Python3_V2/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W0903 05:47:50.053985 140229693343488 deprecation_wrapper.py:119] From /mnt/lucydrive/KeyPhraseExtraction/SNTPSRevAnalyzer/SNTPS_REV_Python3_V2/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0903 05:47:50.055268 140229693343488 deprecation_wrapper.py:119] From /mnt/lucydrive/KeyPhraseExtraction/SNTPSRevAnalyzer/SNTPS_REV_Python3_V2/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0903 05:47:50.107234 140229693343488 deprecation_wrapper.py:119] From /mnt/lucydrive/KeyPhraseExtraction/SNTPSRevAnalyzer/SNTPS_REV_Python3_V2/lib/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0903 05:47:50.122843 140229693343488 deprecation_wrapper.py:119] From /mnt/lucydrive/KeyPhraseExtraction/SNTPSRevAnalyzer/SNTPS_REV_Python3_V2/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:3376: The name tf.log is deprecated. Please use tf.math.log instead.
+
+W0903 05:47:50.125914 140229693343488 deprecation.py:323] From /mnt/lucydrive/KeyPhraseExtraction/SNTPSRevAnalyzer/SNTPS_REV_Python3_V2/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0903 05:47:50.275839 140229693343488 deprecation_wrapper.py:119] From /mnt/lucydrive/KeyPhraseExtraction/SNTPSRevAnalyzer/SNTPS_REV_Python3_V2/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+2019-09-03 05:47:50.506348: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-09-03 05:47:50.512780: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2399995000 Hz
+2019-09-03 05:47:50.515055: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55bff8a14840 executing computations on platform Host. Devices:
+2019-09-03 05:47:50.515095: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-09-03 05:47:50.715785: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
